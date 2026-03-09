@@ -1,0 +1,34 @@
+Real numero1, numero2, resultado
+Entero opcion
+Inicio
+   Escriba "PROGRAMA DE OPERACIONES BASICAS | 1. Suma | 2. Resta | 3. Multiplicacion | 4. Division"
+   Escriba " | Seleccione una opcion: "
+   Lea opcion
+
+   Escriba "Ingrese el primer numero: "
+   Lea numero1
+
+   Escriba "Ingrese el segundo numero: "
+   Lea numero2
+
+   Si opcion = 1 Entonces
+      resultado <- numero1 + numero2
+   Sino
+      Si opcion = 2 Entonces
+         resultado <- numero1 - numero2
+      Sino
+         Si opcion = 3 Entonces
+            resultado <- numero1 * numero2
+         Sino
+            Si opcion = 4 Entonces
+               resultado <- numero1 / numero2
+            Sino
+               Escriba "Opcion no valida"
+            Fin Si
+         Fin Si
+      Fin Si
+   Fin Si
+
+   Escriba "Resultado: ", resultado
+
+Fin

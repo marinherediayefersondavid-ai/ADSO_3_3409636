@@ -1,0 +1,26 @@
+Entero edad, estrato
+
+Inicio
+    Escriba "Ingrese la edad:"
+    Lea edad
+    Escriba "Ingrese el estrato (1 o 2):"
+    Lea estrato
+
+    Si edad >= 18 Entonces
+        Si edad <= 25 Entonces
+            Si estrato = 1 Entonces
+                Escriba "Apta para recibir el apoyo"
+            Sino
+                Si estrato = 2 Entonces
+                    Escriba "Apta para recibir el apoyo"
+                Sino
+                    Escriba "No apta para recibir el apoyo"
+                Fin Si
+            Fin Si
+        Sino
+            Escriba "No apta para recibir el apoyo"
+        Fin Si
+    Sino
+        Escriba "No apta para recibir el apoyo"
+    Fin Si
+Fin

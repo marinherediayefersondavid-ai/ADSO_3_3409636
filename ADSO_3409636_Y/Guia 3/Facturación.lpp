@@ -1,0 +1,18 @@
+Real km, total
+
+Inicio
+    Escriba "Ingrese la distancia recorrida en Km:"
+    Lea km
+
+    Si km <= 300 Entonces
+        total <- 100000
+    Sino
+        Si km <= 1000 Entonces
+            total <- 100000 + (km - 300) * 1000
+        Sino
+            total <- 100000 + (700 * 1000) + (km - 1000) * 500
+        Fin Si
+    Fin Si
+
+    Escriba "Valor total a pagar: ", total
+Fin
